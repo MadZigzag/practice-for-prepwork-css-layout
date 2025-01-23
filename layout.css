@@ -1,0 +1,48 @@
+
+
+body {
+    display: flex;
+    justify-content: center; /* Center fieldset horizontally */
+    align-items: center;    /* Center fieldset vertically */
+    height: 100vh;          /* Full viewport height */
+    margin: 0;              /* Remove default margin */
+}
+
+fieldset {
+    display: flex;               /* Use flexbox for fieldset content */
+    flex-direction: column;      /* Arrange content vertically */
+    justify-content: center;     /* Center content vertically */
+    align-items: center;         /* Center content horizontally */
+    width: 400px;                /* Fieldset width */
+    height: 350px;               /* Fieldset height */
+    padding: 20px;               /* Inner padding */
+    border: 2px solid black;  /* Border style */
+    background-color: white;
+}
+div {
+    text-align: center;        /* Align text (like labels) to the left */
+}
+
+.radio {
+    display: flex;               /* Use flexbox for radio buttons */
+    flex-direction: row;         /* Arrange radio buttons horizontally */
+    justify-content: center;     /* Center radio buttons horizontally */
+    align-items: center;         /* Center radio buttons vertically */
+}
+
+p {
+    margin: 0;                   /* Remove default margin */
+}
+
+.checkbox {
+    display: flex;               /* Use flexbox for checkboxes */
+    flex-direction: row;         /* Arrange checkboxes horizontally */
+    justify-content: center;     /* Center checkboxes horizontally */
+    align-items: center;         /* Center checkboxes vertically */
+    font-size: small;
+    width: 50%;
+}
+legend {
+    border: 1px black solid;
+    margin-left: 50px;
+}
